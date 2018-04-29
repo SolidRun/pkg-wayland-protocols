@@ -1,3 +1,11 @@
+wayland-protocols (1.13-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Switch priority from extra to optional.
+  * Switch Vcs to salsa.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Thu, 01 Mar 2018 09:43:40 +0100
+
 wayland-protocols (1.11-1~bpo9+1) stretch-backports; urgency=medium
 
   * Rebuild for stretch-backports.
