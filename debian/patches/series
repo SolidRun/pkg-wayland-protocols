@@ -1,0 +1,4 @@
+0001-unstable-Add-alpha-compositing-protocol.patch
+0002-unstable-Add-hdr10-metadata-protocol.patch
+0003-Makefile.am-install-alpha-compositing-and-hdr10-meta.patch
+0004-hdr10-metadata-fix-Opening-and-ending-tag-mismatch.patch

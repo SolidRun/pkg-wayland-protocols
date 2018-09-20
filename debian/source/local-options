@@ -1,1 +1,2 @@
 extend-diff-ignore = autogen\.sh|m4/compat\.m4
+unapply-patches

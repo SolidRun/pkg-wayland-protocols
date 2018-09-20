@@ -1,0 +1,26 @@
+From dacfb5e2d82eaf5fdc53fff5650b1bd061a7e95d Mon Sep 17 00:00:00 2001
+From: Haihua Hu <jared.hu@nxp.com>
+Date: Wed, 4 Jul 2018 16:25:24 +0800
+Subject: [PATCH 3/4] Makefile.am: install alpha-compositing and hdr10-metadata
+
+Signed-off-by: Haihua Hu <jared.hu@nxp.com>
+---
+ Makefile.am | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/Makefile.am b/Makefile.am
+index 4b9a901..b8206c7 100644
+--- a/Makefile.am
++++ b/Makefile.am
+@@ -17,6 +17,8 @@ unstable_protocols =								\
+ 	unstable/keyboard-shortcuts-inhibit/keyboard-shortcuts-inhibit-unstable-v1.xml \
+ 	unstable/xdg-output/xdg-output-unstable-v1.xml				\
+ 	unstable/input-timestamps/input-timestamps-unstable-v1.xml	\
++	unstable/alpha-compositing/alpha-compositing-unstable-v1.xml	\
++	unstable/hdr10-metadata/hdr10-metadata-unstable-v1.xml		\
+ 	$(NULL)
+ 
+ stable_protocols =								\
+-- 
+2.18.0
+
